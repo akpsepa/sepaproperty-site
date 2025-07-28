@@ -1,0 +1,67 @@
+Build a fully responsive, professional landing page for a UK-registered company called SEPA Property Ltd.
+
+Purpose:
+The site is intended to support a legitimate business presence for Apple Developer Program enrollment. It must look trustworthy and polished.
+
+Design Requirements:
+Clean, modern design with neutral/soft colours (e.g., muted blue, grey, white)
+
+Use semantic HTML5, and Tailwind CSS or modern responsive CSS
+
+The layout must adapt smoothly across mobile, tablet, and desktop (responsive design is essential)
+
+Rounded corners, soft drop shadows, and adequate spacing
+
+Page Sections:
+Navigation Bar
+
+Left: Company name as logo ("SEPA Property Ltd")
+
+Right: Anchor links – Home | About | Contact
+
+Hero Section
+
+Large headline: "Investing in Property & Digital Innovation"
+
+Subheading: "SEPA Property Ltd is a UK-based firm building a diversified portfolio of real estate and technology assets."
+
+Background image or subtle gradient optional
+
+About Us Section
+
+Text:
+
+“Founded in the UK, SEPA Property Ltd is focused on long-term value creation through strategic property investments and digital product development. We combine real estate expertise with technical innovation to grow sustainable assets.”
+
+Use professional typography and spacing
+
+Contact Section (Get in Touch)
+
+Title: "Get in Touch"
+
+Simple contact form with:
+
+Full Name (input)
+
+Email (input)
+
+Message (textarea)
+
+Submit button
+
+For now, leave the form action blank or use a mailto: link
+
+Footer
+
+Text:
+© SEPA Property Ltd 2025
+Optional placeholder for UK Company Number or VAT number
+
+Technical Notes:
+The entire site must work well on mobile, especially iPhones (Apple will check)
+
+No external JS frameworks required unless needed for responsiveness
+
+Ensure touch targets are adequate on small screens
+
+Prefer a clean, single-page scroll layout (no complex animations needed)

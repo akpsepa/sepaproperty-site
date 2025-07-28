@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEPA Property Ltd - Investing in Property & Digital Innovation</title>
+    <meta name="description" content="SEPA Property Ltd is a UK-based firm building a diversified portfolio of real estate and technology assets.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'sepa-blue': '#2c5aa0',
+                        'sepa-grey': '#6b7280',
+                        'sepa-light': '#f8fafc'
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-white text-gray-800 font-sans">
+    <!-- Navigation Bar -->
+    <nav class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Company Logo -->
+                <div class="flex-shrink-0">
+                    <h1 class="text-xl font-bold text-sepa-blue">SEPA Property Ltd</h1>
+                </div>
+                
+                <!-- Navigation Links -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#home" class="text-gray-600 hover:text-sepa-blue px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Home</a>
+                        <a href="#about" class="text-gray-600 hover:text-sepa-blue px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">About</a>
+                        <a href="#contact" class="text-gray-600 hover:text-sepa-blue px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200">Contact</a>
+                    </div>
+                </div>
+                
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button type="button" class="mobile-menu-button bg-white p-2 rounded-md text-gray-600 hover:text-sepa-blue focus:outline-none focus:ring-2 focus:ring-inset focus:ring-sepa-blue">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Mobile menu -->
+            <div class="mobile-menu hidden md:hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t border-gray-200">
+                    <a href="#home" class="text-gray-600 hover:text-sepa-blue block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                    <a href="#about" class="text-gray-600 hover:text-sepa-blue block px-3 py-2 rounded-md text-base font-medium">About</a>
+                    <a href="#contact" class="text-gray-600 hover:text-sepa-blue block px-3 py-2 rounded-md text-base font-medium">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-gradient-to-br from-sepa-light to-blue-50 py-20 lg:py-32">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 mb-6 leading-tight">
+                    Investing in Property & 
+                    <span class="text-sepa-blue">Digital Innovation</span>
+                </h1>
+                <p class="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                    SEPA Property Ltd is a UK-based firm building a diversified portfolio of real estate and technology assets.
+                </p>
+                <div class="mt-10">
+                    <a href="#about" class="bg-sepa-blue text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors duration-200 shadow-lg hover:shadow-xl">
+                        Learn More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
+                    About Us
+                </h2>
+                <div class="bg-gray-50 rounded-2xl p-8 md:p-12 shadow-sm">
+                    <p class="text-lg md:text-xl text-gray-700 leading-relaxed text-center">
+                        Founded in the UK, SEPA Property Ltd is focused on long-term value creation through strategic property investments and digital product development. We combine real estate expertise with technical innovation to grow sustainable assets.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 bg-sepa-light">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-12">
+                Get in Touch
+            </h2>
+            
+            <div class="bg-white rounded-2xl shadow-lg p-8 md:p-12">
+                <form id="contactForm" class="space-y-6">
+                    <div>
+                        <label for="fullName" class="block text-sm font-medium text-gray-700 mb-2">
+                            Full Name
+                        </label>
+                        <input 
+                            type="text" 
+                            id="fullName" 
+                            name="fullName" 
+                            required
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sepa-blue focus:border-transparent transition-colors duration-200"
+                            placeholder="Enter your full name"
+                        >
+                    </div>
+                    
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-2">
+                            Email
+                        </label>
+                        <input 
+                            type="email" 
+                            id="email" 
+                            name="email" 
+                            required
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sepa-blue focus:border-transparent transition-colors duration-200"
+                            placeholder="Enter your email address"
+                        >
+                    </div>
+                    
+                    <div>
+                        <label for="message" class="block text-sm font-medium text-gray-700 mb-2">
+                            Message
+                        </label>
+                        <textarea 
+                            id="message" 
+                            name="message" 
+                            rows="6"
+                            required
+                            class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-sepa-blue focus:border-transparent transition-colors duration-200 resize-none"
+                            placeholder="Enter your message"
+                        ></textarea>
+                    </div>
+                    
+                    <div class="text-center">
+                        <button 
+                            type="submit"
+                            class="bg-sepa-blue text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors duration-200 shadow-lg hover:shadow-xl min-h-[48px]"
+                        >
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center">
+                <p class="text-gray-300">
+                    © SEPA Property Ltd 2025
+                </p>
+                <p class="text-gray-400 text-sm mt-2">
+                    UK Company Number: [To be added]
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Smooth scrolling and mobile menu JavaScript -->
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Mobile menu toggle
+        const mobileMenuButton = document.querySelector('.mobile-menu-button');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        
+        if (mobileMenuButton && mobileMenu) {
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+            
+            // Close mobile menu when clicking on a link
+            mobileMenu.querySelectorAll('a').forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.add('hidden');
+                });
+            });
+        }
+
+        // Form submission with mailto link
+        const form = document.querySelector('#contactForm');
+        if (form) {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                
+                const fullName = document.getElementById('fullName').value;
+                const email = document.getElementById('email').value;
+                const message = document.getElementById('message').value;
+                
+                // Create mailto link with form data
+                const subject = encodeURIComponent('Contact from SEPA Property Website');
+                const body = encodeURIComponent(
+                    `Name: ${fullName}\n\n` +
+                    `Email: ${email}\n\n` +
+                    `Message:\n${message}`
+                );
+                
+                // Replace 'your-email@domain.com' with your actual email address
+                const mailtoLink = `mailto:your-email@domain.com?subject=${subject}&body=${body}`;
+                
+                // Open email client
+                window.location.href = mailtoLink;
+                
+                // Show success message
+                alert('Thank you for your message! Your email client should open with a pre-filled message. Please send the email to complete your inquiry.');
+                
+                // Reset form
+                form.reset();
+            });
+        }
+    </script>
+</body>
+</html> 
