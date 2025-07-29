@@ -4,7 +4,7 @@ A professional, responsive landing page for SEPA Property Ltd, a UK-based compan
 
 ## Overview
 
-This landing page is designed to support Apple Developer Program enrollment by providing a legitimate business presence. The site features a clean, modern design with professional styling and full responsiveness across all devices.
+Webpage for sepaproperty.co.uk
 
 ## Features
 
